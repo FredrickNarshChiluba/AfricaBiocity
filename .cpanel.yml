@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/africab/public_html/
-    - /bin cp /home/africab/repositories/AfricaBiocity/* $DEPLOYPATH
+    - /bin/cp /home/africab/repositories/AfricaBiocity/* $DEPLOYPATH
