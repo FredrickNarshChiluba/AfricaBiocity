@@ -64,6 +64,9 @@ if(!isset($_SESSION['username'])){
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="./contact.php">Add Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="btn btn-sm btn-info" href="./logout.php">logout</a>
+          </li>
         </ul>
       </div>
     </div>
