@@ -21,10 +21,10 @@ if (isset($_POST['submit']) && $_POST['submit']=='Login')
 		if($totalUser==1){ 
 		$_SESSION['user_id']=$userID;
 		$_SESSION['username']=$userName;
-		echo("<script>location.href = 'http://localhost/africabiocity/admin/home.php';</script>");	
+		echo("<script>location.href = './home.php';</script>");	
 			}else{
 			
-			header("location:http://localhost/africabiocity/adminlogin.php");
+			header("location:./../adminlogin.php");
 		
 		
 			}

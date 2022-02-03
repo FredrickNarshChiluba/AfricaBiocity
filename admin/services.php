@@ -44,10 +44,10 @@ if(!isset($_SESSION['username'])){
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="./../index.php">Home</a>
+            <a class="nav-link js-scroll-trigger" href="./home.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="./">Add About</a>
+            <a class="nav-link js-scroll-trigger" href="./home">Add About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="./product.php">Add Equipment/Product</a>
