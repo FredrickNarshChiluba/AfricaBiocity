@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if(!isset($_SESSION['username'])){
-  echo("<script>location.href = 'http://localhost/africabiocity/index.php';</script>");
+  echo("<script>location.href = './../index.php';</script>");
 }
 ?>
 <!DOCTYPE html>
@@ -64,9 +64,21 @@ if(!isset($_SESSION['username'])){
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="./contact.php">Add Contact</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="btn btn-sm btn-info" href="./logout.php">logout</a>
-          </li>
+          </li> -->
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="btn btn-sm btn-info" href="https://africabiocity.org:2096/" target="_blank" rel="noopener noreferrer">
+                    Mail
+                </a>
+              </li>&nbsp;
+            <li class="nav-item">
+                <a class="btn btn-sm btn-info" href="./logout.php">logout</a>
+            </li>
         </ul>
       </div>
     </div>
