@@ -73,6 +73,21 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="btn btn-sm btn-info" href="https://webmail.africabiocity.org/" target="_blank" rel="noopener noreferrer">Web Mail</a>
+          </li> -->
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="btn btn-sm btn-info" href="https://webmail.africabiocity.org/" target="_blank" rel="noopener noreferrer">
+                    Web&nbsp;Mail
+                </a>
+              </li><!-- &nbsp;
+            <li class="nav-item">
+                <a class="btn btn-sm btn-info" href="./logout.php">logout</a>
+            </li> -->
         </ul>
       </div>
     </div>
